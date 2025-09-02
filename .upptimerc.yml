@@ -7,6 +7,10 @@ sites:
     url: https://www.orientalremediesgroup.com/
   - name: Vault Dragon
     url: $VD_URL
+    method: POST
+    orgCode: $VD_CODE
+    email: $VD_SERVICEUSER
+    password: $VD_PW
   - name: SleekFlow
     url: https://app.sleekflow.io/
   - name: SimplyBook
