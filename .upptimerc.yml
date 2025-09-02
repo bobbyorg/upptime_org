@@ -9,7 +9,7 @@ sites:
     url: $VD_URL
     method: POST
     - "--data"
-    orgCode: $VD_CODE
+    #orgCode: $VD_CODE
     - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW}}" # The form data
     - "--location"
     - "--fail"
