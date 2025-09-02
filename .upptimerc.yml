@@ -13,6 +13,9 @@ sites:
     url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
   - name: JE CCTV
     url: ${{secrets.JE_CCTV}}
+    port: ${{secrets.JE_PORT}}
+    check: "tcp-ping"
+    ipv6: false
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
