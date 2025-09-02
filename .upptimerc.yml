@@ -45,11 +45,6 @@ sites:
     #orgCode: $VD_CODE
   #  email: $VD_SERVICEUSER
   #  password: $VD_PW
-        # ADD THIS NEW STEP RIGHT BELOW IT
-  - name: Debug Secrets
-    run: |
-      echo "The URL secret being used is: ${{ secrets.VD_URL }}"
-      echo "The Code secret being used is: ${{ secrets.VD_CODE }}"
   #- name: SleekFlow
   #  url: https://app.sleekflow.io/
   #- name: SimplyBook
