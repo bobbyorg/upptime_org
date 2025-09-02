@@ -11,6 +11,8 @@ sites:
     url: https://app.sleekflow.io/
   - name: SimplyBook
     url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
+  - name: SimplyBook VIP
+    url: https://orientalremediesgroup.secure.simplybook.vip/v2/index/index
 #  - name: JE CCTV
 #    url: ${{secrets.JE_CCTV}}
 #    port: ${{secrets.JE_PORT}}
