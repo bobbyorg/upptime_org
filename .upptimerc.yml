@@ -14,8 +14,6 @@ sites:
   - name: JE CCTV
     url: ${{secrets.JE_CCTV}}
     port: ${{secrets.JE_PORT}}
-    check: "tcp-ping"
-    ipv6: false
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
