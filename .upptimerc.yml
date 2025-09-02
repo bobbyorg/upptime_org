@@ -5,10 +5,13 @@ repo: upptime_org # The name of this repository
 sites:
   - name: ORG Website
     url: https://www.orientalremediesgroup.com/
-  #- name: Vault Dragon
-  #  url: $VD_URL
-  #  method: POST
-  #  orgCode: $VD_CODE
+  - name: Vault Dragon
+    url: $VD_URL
+    method: POST
+    - "--data"
+    orgCode: $VD_CODE
+    - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW}}" # The form data
+
   #  email: $VD_SERVICEUSER
   #  password: $VD_PW
   - name: SleekFlow
