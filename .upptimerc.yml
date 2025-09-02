@@ -12,7 +12,7 @@ sites:
   - name: SimplyBook
     url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
   - name: JE CCTV
-    url: {{ secret.JECCTV }}
+    url: {{ secrets.JECCTV }}
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
