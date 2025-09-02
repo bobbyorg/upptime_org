@@ -1,0 +1,7 @@
+url: ${{ secrets.JE_CCTV }}
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-09-02T14:26:58.057Z
+startTime: 2025-09-02T14:26:58.054Z
+generator: Upptime <https://github.com/upptime/upptime>
