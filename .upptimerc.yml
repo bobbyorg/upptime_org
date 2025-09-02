@@ -6,7 +6,7 @@ sites:
   - name: ORG Website
     url: https://www.orientalremediesgroup.com/
   - name: Vault Dragon
-    url: https://hub.vaultdragon.com/
+    url: $VD_URL
   - name: SleekFlow
     url: https://app.sleekflow.io/
   - name: SimplyBook
