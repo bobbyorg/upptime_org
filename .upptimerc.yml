@@ -35,6 +35,8 @@ sites:
       - "--location"
       - "--fail"
       - "--data"
+      # The JSON data payload
+      - |
         {
           "orgCode": "${{ secrets.VD_CODE }}",
           "email": "${{ secrets.VD_SERVICEUSER }}",
