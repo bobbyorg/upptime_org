@@ -11,7 +11,8 @@ sites:
     - "--data"
     orgCode: $VD_CODE
     - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW}}" # The form data
-
+    - "--location"
+    - "--fail"
   #  email: $VD_SERVICEUSER
   #  password: $VD_PW
   - name: SleekFlow
