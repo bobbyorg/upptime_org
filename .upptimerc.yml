@@ -5,50 +5,14 @@ repo: upptime_org # The name of this repository
 sites:
   - name: ORG Website
     url: https://www.orientalremediesgroup.com/
-  - name: Vault Dragon API Login
-    url: ${{ secrets.VD_URL }}
-    check: "http-body-match"
-    # From your headers, the success code is 201 Created.
-    # Check the "Response" tab in your browser's developer tools for the
-    # actual JSON body that is returned on success.
-    # Update the text below to match a key from that JSON, like "token" or "id".
-    __dangerous__body_down_if_text_missing: '"token"'
-    __dangerous__curl_args:
-      - "--request"
-      - "POST"
-      # Add all the headers your browser sends to look like a legitimate request
-      - "--header"
-      - "Content-Type: application/json;charset=UTF-8"
-      - "--header"
-      - "Accept: application/json"
-      - "--header"
-      - "Origin: https://hub.vaultdragon.com" # <-- VERY LIKELY REQUIRED
-      - "--header"
-      - "Referer: https://hub.vaultdragon.com/" # <-- VERY LIKELY REQUIRED
-      - "--header"
-      - "x-client-tz: Asia/Singapore"
-      - "--header"
-      - "x-org: orgtcm" # <-- This custom header might be required.
-      # Set the User-Agent to match a real browser
-      - "--user-agent"
-      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
-      - "--location"
-      - "--fail"
-      - "--data"
-      # The JSON data payload
-      - |
-        {
-          "orgCode": "${{ secrets.VD_CODE }}",
-          "email": "${{ secrets.VD_SERVICEUSER }}",
-          "password": "${{ secrets.VD_PW }}"
-        }
-    #orgCode: $VD_CODE
-  #  email: $VD_SERVICEUSER
-  #  password: $VD_PW
-  #- name: SleekFlow
-  #  url: https://app.sleekflow.io/
-  #- name: SimplyBook
-  #  url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
+  - name: VD Login Page
+    url: https://hub.vaultdragon.com/login
+  - name: SleekFlow
+    url: https://app.sleekflow.io/
+  - name: SimplyBook
+    url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
+  - name: JE CCTV
+    url: {{ secret.JECCTV }}
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
@@ -57,6 +21,48 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
+#  - name: Vault Dragon API Login
+#    url: ${{ secrets.VD_URL }}
+#    check: "http-body-match"
+    # From your headers, the success code is 201 Created.
+    # Check the "Response" tab in your browser's developer tools for the
+    # actual JSON body that is returned on success.
+    # Update the text below to match a key from that JSON, like "token" or "id".
+#    __dangerous__body_down_if_text_missing: '"token"'
+#    __dangerous__curl_args:
+#      - "--request"
+#      - "POST"
+      # Add all the headers your browser sends to look like a legitimate request
+#      - "--header"
+#      - "Content-Type: application/json;charset=UTF-8"
+#      - "--header"
+#      - "Accept: application/json"
+#      - "--header"
+#      - "Origin: https://hub.vaultdragon.com" # <-- VERY LIKELY REQUIRED
+#      - "--header"
+#      - "Referer: https://hub.vaultdragon.com/" # <-- VERY LIKELY REQUIRED
+#      - "--header"
+#      - "x-client-tz: Asia/Singapore"
+#      - "--header"
+#      - "x-org: orgtcm" # <-- This custom header might be required.
+      # Set the User-Agent to match a real browser
+ #     - "--user-agent"
+ #     - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+ #     - "--location"
+ #     - "--fail"
+ #     - "--data"
+      # The JSON data payload
+#      - |
+#        {
+#          "orgCode": "${{ secrets.VD_CODE }}",
+#          "email": "${{ secrets.VD_SERVICEUSER }}",
+#          "password": "${{ secrets.VD_PW }}"
+#        }
+    #orgCode: $VD_CODE
+  #  email: $VD_SERVICEUSER
+  #  password: $VD_PW
+
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
