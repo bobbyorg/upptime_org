@@ -7,20 +7,37 @@ sites:
     url: https://www.orientalremediesgroup.com/
   - name: Vault Dragon
     url: ${{ secrets.VD_URL }}
-    __dangerous__curl_args: # <-- This key was missing
+    check: "http-body-match" # Use a custom check
+    # After a successful login, the API should return a JSON response.
+    # Check for a key that only appears on success, e.g., "token".
+    # Update "token" if the actual success response contains a different key.
+    __dangerous__body_down_if_text_missing: '"token":'
+    __dangerous__curl_args:
+      # 1. Set the request method to POST
       - "--request"
       - "POST"
-      - "--data"
-      - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW }}"
+      # 2. Set the Content-Type header to specify JSON data
+      - "--header"
+      - "Content-Type: application/json"
+      # 3. Follow any redirects
       - "--location"
+      # 4. Fail silently on server errors
       - "--fail"
+      # 5. Provide the data as a JSON string
+      - "--data"
+      - |
+        {
+          "orgCode": "${{ secrets.VD_CODE }}",
+          "email": "${{ secrets.VD_SERVICEUSER }}",
+          "password": "${{ secrets.VD_PW }}"
+        }
     #orgCode: $VD_CODE
   #  email: $VD_SERVICEUSER
   #  password: $VD_PW
-  - name: SleekFlow
-    url: https://app.sleekflow.io/
-  - name: SimplyBook
-    url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
+  #- name: SleekFlow
+  #  url: https://app.sleekflow.io/
+  #- name: SimplyBook
+  #  url: https://orientalremediesgroup.secure.simplybook.asia/v2/index/index
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
