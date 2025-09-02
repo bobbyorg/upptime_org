@@ -6,13 +6,15 @@ sites:
   - name: ORG Website
     url: https://www.orientalremediesgroup.com/
   - name: Vault Dragon
-    url: $VD_URL
-    method: POST
-    - "--data"
+    url: ${{ secrets.VD_URL }}
+    __dangerous__curl_args: # <-- This key was missing
+      - "--request"
+      - "POST"
+      - "--data"
+      - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW }}"
+      - "--location"
+      - "--fail"
     #orgCode: $VD_CODE
-    - "orgCode=${{ secrets.VD_CODE }}&email=${{ secrets.VD_SERVICEUSER }}&password=${{ secrets.VD_PW}}" # The form data
-    - "--location"
-    - "--fail"
   #  email: $VD_SERVICEUSER
   #  password: $VD_PW
   - name: SleekFlow
