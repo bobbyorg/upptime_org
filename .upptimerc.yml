@@ -14,6 +14,7 @@ sites:
   - name: SimplyBook VIP
     url: https://orientalremediesgroup.secure.simplybook.vip/v2/index/index
   - name: SleekFlow API
+    url: https://api.sleekflow.io/api/analytic?startDate=2025-01-01&endDate=2025-01-02
     check: "http-body-match"
     # Check the actual API response and replace "data" with a key or text
     # that is always present in a successful response.
