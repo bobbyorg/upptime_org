@@ -40,19 +40,19 @@
     "url": "https://app.sleekflow.io/",
     "icon": "https://icons.duckduckgo.com/ip3/app.sleekflow.io.ico",
     "slug": "sleek-flow",
-    "status": "down",
-    "uptime": "97.59%",
-    "uptimeDay": "97.59%",
-    "uptimeWeek": "97.59%",
-    "uptimeMonth": "97.59%",
-    "uptimeYear": "97.59%",
-    "time": 198,
-    "timeDay": 210,
-    "timeWeek": 198,
-    "timeMonth": 198,
-    "timeYear": 198,
+    "status": "up",
+    "uptime": "97.24%",
+    "uptimeDay": "97.24%",
+    "uptimeWeek": "97.24%",
+    "uptimeMonth": "97.24%",
+    "uptimeYear": "97.24%",
+    "time": 197,
+    "timeDay": 207,
+    "timeWeek": 197,
+    "timeMonth": 197,
+    "timeYear": 197,
     "dailyMinutesDown": {
-      "2025-09-03": 18,
+      "2025-09-03": 23,
       "2025-09-02": 16
     }
   },
@@ -109,7 +109,7 @@
     "timeMonth": 983,
     "timeYear": 983,
     "dailyMinutesDown": {
-      "2025-09-03": 772
+      "2025-09-03": 777
     }
   },
   {
@@ -129,7 +129,7 @@
     "timeMonth": 1030,
     "timeYear": 1030,
     "dailyMinutesDown": {
-      "2025-09-03": 683
+      "2025-09-03": 688
     }
   },
   {
