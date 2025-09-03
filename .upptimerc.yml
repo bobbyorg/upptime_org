@@ -37,6 +37,10 @@ sites:
     headers:
       - "Content-Type: application/json"
     body: "$SB_JSON"
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 401
     
 #  - name: JE CCTV
 #    url: ${{secrets.JE_CCTV}}
