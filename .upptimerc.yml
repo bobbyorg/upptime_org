@@ -36,7 +36,7 @@ sites:
     __dangerous__body_down_if_text_missing: '"data"'
     headers:
       - "Content-Type: application/json"
-    body: ${{ secrets.SF_JSON}}
+    body: "$SF_JSON"
     
 #  - name: JE CCTV
 #    url: ${{secrets.JE_CCTV}}
