@@ -24,10 +24,11 @@ sites:
       - "--header"
       - "Accept: application/json"
       - "--header"
-      - "X-Sleekflow-Api-Key: $SF_KEY"
+      - "X-Sleekflow-Api-Key: ${{secrets.SF_KEY}}"
     expectedStatusCodes:
       - 200
       - 201
+      - 401
 #  - name: JE CCTV
 #    url: ${{secrets.JE_CCTV}}
 #    port: ${{secrets.JE_PORT}}
