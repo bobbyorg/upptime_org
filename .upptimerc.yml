@@ -14,24 +14,20 @@ sites:
   - name: SimplyBook VIP
     url: https://orientalremediesgroup.secure.simplybook.vip/v2/index/index
   - name: SleekFlow API
-    METHOD: GET
     url: https://api.sleekflow.io/api/analytic?startDate=2025-01-01&endDate=2025-01-02
-    headers:
-      - "Content-Type: application/json"
-      - '{ X-Sleekflow-Api-Key: "$SF_KEY"}'
-    expectedStatusCodes:
-      -200
-      -201
     # Check the actual API response and replace "data" with a key or text
     # that is always present in a successful response.
-#    __dangerous__body_down_if_text_missing: '"data"'
-#    __dangerous__curl_args:
-#      - "--request"
-#      - "GET"
-#      - "--header"
-#      - "Accept: application/json"
-#      - "--header"
-#      - "X-Sleekflow-Api-Key: $SF_KEY"
+    __dangerous__body_down_if_text_missing: '"data"'
+    __dangerous__curl_args:
+      - "--request"
+      - "GET"
+      - "--header"
+      - "Accept: application/json"
+      - "--header"
+      - "X-Sleekflow-Api-Key: $SF_KEY"
+    expectedStatusCodes:
+      - 200
+      - 201
 #  - name: JE CCTV
 #    url: ${{secrets.JE_CCTV}}
 #    port: ${{secrets.JE_PORT}}
