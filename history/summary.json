@@ -4,19 +4,19 @@
     "url": "https://www.orientalremediesgroup.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.orientalremediesgroup.com.ico",
     "slug": "org-website",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 349,
-    "timeDay": 324,
-    "timeWeek": 226,
-    "timeMonth": 349,
-    "timeYear": 349,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "99.45%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 350,
+    "timeDay": 350,
+    "timeWeek": 245,
+    "timeMonth": 350,
+    "timeYear": 350,
     "dailyMinutesDown": {
-      "2025-09-18": 0
+      "2025-09-18": 8
     }
   },
   {
@@ -113,7 +113,7 @@
     "timeMonth": 975,
     "timeYear": 975,
     "dailyMinutesDown": {
-      "2025-09-18": 278,
+      "2025-09-18": 286,
       "2025-09-17": 1440,
       "2025-09-16": 1440,
       "2025-09-15": 1440,
@@ -148,7 +148,7 @@
     "timeMonth": 889,
     "timeYear": 889,
     "dailyMinutesDown": {
-      "2025-09-18": 278,
+      "2025-09-18": 286,
       "2025-09-17": 1440,
       "2025-09-16": 1440,
       "2025-09-15": 1440,
