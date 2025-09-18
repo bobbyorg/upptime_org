@@ -4,18 +4,20 @@
     "url": "https://www.orientalremediesgroup.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.orientalremediesgroup.com.ico",
     "slug": "org-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 346,
-    "timeDay": 181,
-    "timeWeek": 191,
-    "timeMonth": 346,
-    "timeYear": 346,
-    "dailyMinutesDown": {}
+    "time": 349,
+    "timeDay": 324,
+    "timeWeek": 226,
+    "timeMonth": 349,
+    "timeYear": 349,
+    "dailyMinutesDown": {
+      "2025-09-18": 0
+    }
   },
   {
     "name": "VD Login Page",
@@ -111,7 +113,7 @@
     "timeMonth": 975,
     "timeYear": 975,
     "dailyMinutesDown": {
-      "2025-09-18": 69,
+      "2025-09-18": 278,
       "2025-09-17": 1440,
       "2025-09-16": 1440,
       "2025-09-15": 1440,
@@ -146,7 +148,7 @@
     "timeMonth": 889,
     "timeYear": 889,
     "dailyMinutesDown": {
-      "2025-09-18": 69,
+      "2025-09-18": 278,
       "2025-09-17": 1440,
       "2025-09-16": 1440,
       "2025-09-15": 1440,
