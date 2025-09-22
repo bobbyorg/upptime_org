@@ -42,9 +42,9 @@
     "url": "https://app.sleekflow.io/",
     "icon": "https://icons.duckduckgo.com/ip3/app.sleekflow.io.ico",
     "slug": "sleek-flow",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.79%",
@@ -54,6 +54,7 @@
     "timeMonth": 216,
     "timeYear": 216,
     "dailyMinutesDown": {
+      "2025-09-22": 0,
       "2025-09-03": 44,
       "2025-09-02": 16
     }
@@ -82,11 +83,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/orientalremediesgroup.secure.simplybook.vip.ico",
     "slug": "simply-book-vip",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "99.92%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.91%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
     "time": 1751,
     "timeDay": 1146,
     "timeWeek": 1674,
@@ -113,7 +114,7 @@
     "timeMonth": 975,
     "timeYear": 975,
     "dailyMinutesDown": {
-      "2025-09-22": 76,
+      "2025-09-22": 1046,
       "2025-09-21": 1440,
       "2025-09-20": 1440,
       "2025-09-19": 1440,
@@ -152,7 +153,7 @@
     "timeMonth": 902,
     "timeYear": 902,
     "dailyMinutesDown": {
-      "2025-09-22": 76,
+      "2025-09-22": 1046,
       "2025-09-21": 1440,
       "2025-09-20": 1440,
       "2025-09-19": 1440,
