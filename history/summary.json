@@ -85,9 +85,9 @@
     "url": "https://orientalremediesgroup.secure.simplybook.vip/v2/index/index",
     "icon": "https://icons.duckduckgo.com/ip3/orientalremediesgroup.secure.simplybook.vip.ico",
     "slug": "simply-book-vip",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.76%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.93%",
@@ -97,6 +97,7 @@
     "timeMonth": 1447,
     "timeYear": 1581,
     "dailyMinutesDown": {
+      "2025-10-24": 0,
       "2025-10-21": 24,
       "2025-09-06": 24
     }
@@ -118,7 +119,7 @@
     "timeMonth": 967,
     "timeYear": 968,
     "dailyMinutesDown": {
-      "2025-10-24": 70,
+      "2025-10-24": 353,
       "2025-10-23": 1440,
       "2025-10-22": 1440,
       "2025-10-21": 1440,
@@ -189,7 +190,7 @@
     "timeMonth": 955,
     "timeYear": 932,
     "dailyMinutesDown": {
-      "2025-10-24": 70,
+      "2025-10-24": 353,
       "2025-10-23": 1440,
       "2025-10-22": 1440,
       "2025-10-21": 1440,
