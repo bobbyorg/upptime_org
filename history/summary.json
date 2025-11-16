@@ -8,12 +8,12 @@
     "uptime": "99.89%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.76%",
+    "uptimeMonth": "99.80%",
     "uptimeYear": "99.89%",
     "time": 996,
     "timeDay": 104,
     "timeWeek": 228,
-    "timeMonth": 1523,
+    "timeMonth": 1593,
     "timeYear": 996,
     "dailyMinutesDown": {
       "2025-10-30": 88,
@@ -44,9 +44,9 @@
     "url": "https://app.sleekflow.io/",
     "icon": "https://icons.duckduckgo.com/ip3/app.sleekflow.io.ico",
     "slug": "sleek-flow",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.93%",
@@ -56,6 +56,7 @@
     "timeMonth": 182,
     "timeYear": 211,
     "dailyMinutesDown": {
+      "2025-11-16": 0,
       "2025-10-21": 20,
       "2025-09-03": 44,
       "2025-09-02": 16
@@ -120,7 +121,7 @@
     "timeMonth": 909,
     "timeYear": 952,
     "dailyMinutesDown": {
-      "2025-11-16": 81,
+      "2025-11-16": 1079,
       "2025-11-15": 1440,
       "2025-11-14": 1440,
       "2025-11-13": 1440,
@@ -214,7 +215,7 @@
     "timeMonth": 938,
     "timeYear": 931,
     "dailyMinutesDown": {
-      "2025-11-16": 81,
+      "2025-11-16": 1079,
       "2025-11-15": 1440,
       "2025-11-14": 1440,
       "2025-11-13": 1440,
