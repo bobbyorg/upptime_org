@@ -1,7 +1,7 @@
 url: https://api.sleekflow.io/api/analytic?startDate=2025-01-01&endDate=2025-01-02
 status: down
 code: 401
-responseTime: 940
-lastUpdated: 2025-11-17T23:13:04.569Z
+responseTime: 838
+lastUpdated: 2025-11-18T23:12:59.374Z
 startTime: 2025-09-03T00:58:52.820Z
 generator: Upptime <https://github.com/upptime/upptime>
