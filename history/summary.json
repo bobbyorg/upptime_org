@@ -67,18 +67,19 @@
     "url": "https://orientalremediesgroup.secure.simplybook.asia/v2/index/index",
     "icon": "https://icons.duckduckgo.com/ip3/orientalremediesgroup.secure.simplybook.asia.ico",
     "slug": "simply-book",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 1681,
-    "timeDay": 1457,
-    "timeWeek": 1740,
-    "timeMonth": 1719,
-    "timeYear": 1681,
+    "time": 1700,
+    "timeDay": 2595,
+    "timeWeek": 1989,
+    "timeMonth": 1779,
+    "timeYear": 1700,
     "dailyMinutesDown": {
+      "2025-11-24": 0,
       "2025-09-24": 23
     }
   },
@@ -96,7 +97,7 @@
     "time": 1625,
     "timeDay": 1165,
     "timeWeek": 1267,
-    "timeMonth": 1705,
+    "timeMonth": 1707,
     "timeYear": 1625,
     "dailyMinutesDown": {
       "2025-11-20": 22,
@@ -122,7 +123,7 @@
     "timeMonth": 1147,
     "timeYear": 1030,
     "dailyMinutesDown": {
-      "2025-11-24": 81,
+      "2025-11-24": 740,
       "2025-11-23": 1440,
       "2025-11-22": 1440,
       "2025-11-21": 1440,
@@ -224,7 +225,7 @@
     "timeMonth": 928,
     "timeYear": 930,
     "dailyMinutesDown": {
-      "2025-11-24": 81,
+      "2025-11-24": 740,
       "2025-11-23": 1440,
       "2025-11-22": 1440,
       "2025-11-21": 1440,
